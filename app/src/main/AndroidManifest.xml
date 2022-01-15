@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnSeveralActivities">
         <activity
+            android:name=".BitrhdayActivity"
+            android:exported="false"
+            android:label="@string/brithday_title"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,7 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AboutActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/about_title" />
     </application>
 
 </manifest>
