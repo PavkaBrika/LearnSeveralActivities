@@ -23,11 +23,13 @@ public class MainActivity extends AppCompatActivity {
 
                 EditText user = (EditText) findViewById(R.id.edttxt1);
                 EditText descr = (EditText) findViewById(R.id.edttxt2);
+                EditText name = (EditText) findViewById(R.id.edttxt3);
 
                 Intent intent = new Intent(MainActivity.this, AboutActivity.class);
 
                 intent.putExtra("username", user.getText().toString());
                 intent.putExtra("description", descr.getText().toString());
+                intent.putExtra("name",name.getText().toString());
 
                 startActivity(intent);
             }

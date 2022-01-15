@@ -39,6 +39,22 @@
         android:layout_marginRight="16dp"
         android:hint="Текст" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="От"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="4dp"/>
+
+    <EditText
+        android:id="@+id/edttxt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Имя" />
+
     <Button
         android:id="@+id/btn"
         android:layout_width="match_parent"

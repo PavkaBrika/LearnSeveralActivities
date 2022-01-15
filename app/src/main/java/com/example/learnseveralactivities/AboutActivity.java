@@ -16,10 +16,12 @@ public class AboutActivity extends AppCompatActivity {
 
         String user = "Жывотное";
         String gift = "дырку от бублика";
+        String giftname;
 
         user = getIntent().getStringExtra("username");
         gift = getIntent().getExtras().getString("description");
+        giftname = getIntent().getStringExtra("name");
 
-        textView.setText(user + ", вам передали " + gift);
+        textView.setText(user + ", вам передали " + gift + " от " + giftname);
     }
 }
