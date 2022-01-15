@@ -24,14 +24,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btn = (Button) findViewById(R.id.btn2);
-
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, BitrhdayActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 }
