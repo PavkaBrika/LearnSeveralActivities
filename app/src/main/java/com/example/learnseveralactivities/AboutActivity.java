@@ -17,6 +17,9 @@ public class AboutActivity extends AppCompatActivity {
         String user = "Жывотное";
         String gift = "дырку от бублика";
 
+        user = getIntent().getStringExtra("username");
+        gift = getIntent().getExtras().getString("description");
+
         textView.setText(user + ", вам передали " + gift);
     }
 }

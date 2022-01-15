@@ -16,6 +16,7 @@
         android:layout_marginBottom="4dp"/>
 
     <EditText
+        android:id="@+id/edttxt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -31,6 +32,7 @@
         android:layout_marginBottom="4dp"/>
 
     <EditText
+        android:id="@+id/edttxt2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
