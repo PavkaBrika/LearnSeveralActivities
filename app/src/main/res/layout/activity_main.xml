@@ -62,17 +62,29 @@
         android:layout_margin="8dp"
         android:text="Передать" />
 
-    <EditText
+    <TextView
+        android:id="@+id/TextViewName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Age"
+        android:text="Name"
+        android:textSize="30sp"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/TextViewCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cost"
+        android:textSize="30sp"
         android:layout_margin="8dp" />
 
     <Button
+        android:id="@+id/btnGo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:text="Go" />
+
 
 
 

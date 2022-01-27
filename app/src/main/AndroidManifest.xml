@@ -12,8 +12,7 @@
         <activity
             android:name=".BitrhdayActivity"
             android:exported="false"
-            android:label="@string/brithday_title"
-            android:theme="@style/Theme.AppCompat.Light.Dialog"/>
+            android:label="@string/brithday_title" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
