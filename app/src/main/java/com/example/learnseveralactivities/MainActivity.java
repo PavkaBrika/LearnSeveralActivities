@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button aboutProgramm = (Button) findViewById(R.id.btn2);
+        Button aboutProgramm = (Button) findViewById(R.id.btn);
         aboutProgramm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

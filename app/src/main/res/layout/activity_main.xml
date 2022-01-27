@@ -62,6 +62,19 @@
         android:layout_margin="8dp"
         android:text="Передать" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Go" />
+
+
 
 
 
